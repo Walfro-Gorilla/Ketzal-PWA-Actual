@@ -310,11 +310,11 @@ class TourDetails extends Component {
                           <li>
                             <div className="single-comment-wrap">
                               <div className="thumb">
-                                <img src="assets/img/client/2.png" alt="img" />
+                                <img src={publicUrl+"assets/img/client/2.png"} alt="img" />
                               </div>
                               <div className="content">
-                                <h4 className="title">David Reyes</h4>
-                                <span className="date">13 August 2019</span>
+                                <h4 className="title">Claudia Bañuelos</h4>
+                                <span className="date">22 FEB 2019</span>
                                 <div className="tp-review-meta">
                                   <i className="ic-yellow fa fa-star" />
                                   <i className="ic-yellow fa fa-star" />
@@ -322,18 +322,19 @@ class TourDetails extends Component {
                                   <i className="ic-yellow fa fa-star" />
                                   <i className="ic-yellow fa fa-star" />
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata</p>
+                                <p>Súper recomendado 😍⭐️⭐️⭐️⭐️⭐️
+                                  Me encantó el trato y las facilidades de pago son lo mejor GRACIAS!! #Cancún 🌊 🏝💚💚💚</p>
                               </div>
                             </div>
                           </li>
                           <li>
                             <div className="single-comment-wrap">
                               <div className="thumb">
-                                <img src="assets/img/client/3.png" alt="img" />
+                                <img src={publicUrl+"assets/img/client/3.png"} alt="img" />
                               </div>
                               <div className="content">
-                                <h4 className="title">Eliza Jordan</h4>
-                                <span className="date">17 SEP 2019</span>
+                                <h4 className="title">Beronica Alejandra</h4>
+                                <span className="date">29 OCT 2019</span>
                                 <div className="tp-review-meta">
                                   <i className="ic-yellow fa fa-star" />
                                   <i className="ic-yellow fa fa-star" />
@@ -341,22 +342,22 @@ class TourDetails extends Component {
                                   <i className="ic-yellow fa fa-star" />
                                   <i className="ic-yellow fa fa-star" />
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata</p>
+                                <p>Agencia 100% confiable, gran ambiente y te la pasas súper padre, desde el pa’l norte 2018, 2019 y próximamente 2020🤘🏼🖤</p>
                               </div>
                             </div>
                           </li>
                         </ul>
                         <div className="btn-wrapper text-right mt-3">
-                          <a className="btn-read-more" href="#"><span>More Review<i className="la la-arrow-right" /></span></a>
+                          <a className="btn-read-more" href="#"><span>Mas Reseñas<i className="la la-arrow-right" /></span></a>
                         </div>
                       </div>
                       <div className="location-review-area">
                         <form className="tp-form-wrap bg-gray tp-form-wrap-one">
                           <div className="row">
-                            <div className="col-lg-6"><h4 className="single-page-small-title">Write A Review</h4></div>
+                            <div className="col-lg-6"><h4 className="single-page-small-title">Escribe una Reseña</h4></div>
                             <div className="col-lg-6">
                               <div className="tp-review-meta text-lg-right">
-                                <span className="mr-3 ml-0">Assigned Rating</span>
+                                <span className="mr-3 ml-0">Calificacon Asignada</span>
                                 <i className="fa fa-star" />
                                 <i className="fa fa-star" />
                                 <i className="fa fa-star" />
@@ -366,7 +367,7 @@ class TourDetails extends Component {
                             </div>
                             <div className="col-lg-6">
                               <label className="single-input-wrap">
-                                <span className="single-input-title">Name</span>
+                                <span className="single-input-title">Nombre</span>
                                 <input type="text" />
                               </label>
                             </div>
@@ -378,12 +379,12 @@ class TourDetails extends Component {
                             </div>
                             <div className="col-lg-12">
                               <label className="single-input-wrap">
-                                <span className="single-input-title">Comments</span>
+                                <span className="single-input-title">Commentario</span>
                                 <textarea defaultValue={""} />
                               </label>
                             </div>
                             <div className="col-12">
-                              <a className="btn btn-yellow" href="#">Send</a>
+                              <a className="btn btn-yellow" href="#">Enviar</a>
                             </div>
                           </div>
                         </form>
@@ -394,32 +395,32 @@ class TourDetails extends Component {
                     <div className="sidebar-area sidebar-area-4">
                       <div className="widget tour-list-widget">
                         <div className="widget-tour-list-meta">
-                          <div className="single-widget-search-input-title"><i className="fa fa-user" /> Name</div>
+                          <div className="single-widget-search-input-title"><i className="fa fa-user" /> Nombre</div>
                           <div className="single-widget-search-input">
-                            <input type="text" placeholder="Name" />
+                            <input type="text" placeholder="Nombre" />
                           </div>
                           <div className="single-widget-search-input-title"><i className="fa fa-envelope" /> Email</div>
                           <div className="single-widget-search-input">
                             <input type="text" placeholder="Email" />
                           </div>
-                          <div className="single-widget-search-input-title"><i className="fa fa-phone" /> Phone</div>
+                          <div className="single-widget-search-input-title"><i className="fa fa-phone" /> Celular</div>
                           <div className="single-widget-search-input">
-                            <input type="text" placeholder="Phone" />
+                            <input type="text" placeholder="Whats App" />
                           </div>
-                          <div className="single-widget-search-input-title"><i className="fa fa-calendar-minus-o" /> Date</div>
+                          <div className="single-widget-search-input-title"><i className="fa fa-calendar-minus-o" /> Ida</div>
                           <div className="single-widget-search-input">
-                            <input type="text" className="departing-date custom-select" placeholder="Departing" />
+                            <input type="text" className="departing-date custom-select" placeholder="Sales" />
                           </div>
-                          <div className="single-widget-search-input-title"><i className="fa fa-calendar-minus-o" /> Date</div>
+                          <div className="single-widget-search-input-title"><i className="fa fa-calendar-minus-o" /> Vuelta</div>
                           <div className="single-widget-search-input">
-                            <input type="text" className="returning-date custom-select" placeholder="Returning" />
+                            <input type="text" className="returning-date custom-select" placeholder="Vuelves" />
                           </div>
-                          <div className="single-widget-search-input-title"><i className="fa fa-keyboard-o" /> Message</div>
+                          <div className="single-widget-search-input-title"><i className="fa fa-keyboard-o" /> Mensaje</div>
                           <div className="single-widget-search-input">
-                            <textarea placeholder="Type" defaultValue={""} />
+                            <textarea placeholder="Escribe..." defaultValue={""} />
                           </div>
                           <div className="text-lg-center text-left">
-                            <a className="btn btn-yellow" href="#">Book Now <i className="fa fa-paper-plane" /></a>
+                            <a className="btn btn-yellow" href="#">¡Vamonoos!<i className="fa fa-paper-plane" /></a>
                           </div>
                         </div>
                       </div>
